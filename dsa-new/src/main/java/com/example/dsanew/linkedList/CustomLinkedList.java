@@ -32,14 +32,14 @@ public class CustomLinkedList {
      *
      * @param head
      */
-    public static void printList(Node head) {
+   /* public static void printList(Node head) {
         Node current = head;
         while (current != null) {
             System.out.print(current.getValue() + " -> ");
             current = current.getNext();
         }
         System.out.println("null");
-    }
+    }*/
 
     /**
      * Method to insert element at very first index
